@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <!-- If you need to support IE 9 or IE 8-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- So responsive design works in small mobile devices (phones,...) -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Boostrap template Page</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+          crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
+          integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="css/mystyle.css">
+
+  </head>
+<body>
+  <h1 class="Title">Bootstrap Grid </h1>
+
+  <div class="container">
+    <img class="img-responsive" src="img/crazy.jpg"/>
+    La imagen tiene la clase img-responsive que la desplaza a la izda en vez de dejarla centrada, por qué?
+    <div class="row formulario">
+      <div>
+        <label>¿Cómo conseguir que el formulario crezca en altura cuando los inputs se apilan?</label>
+      </div>
+      <div class="col-lg-4"><input type="text"/></div>
+      <div class="col-lg-4"><input type="text"/></div>
+      <div class="col-lg-4"><input type="text"/></div>
+    </div>
+    <p>
+      Bootstrap 2 incluía algunas utilidades para hacer que las páginas se adaptaran a los dispositivos móviles. Bootstrap 3 se ha creado desde cero pensando en los móviles. Así que en vez de incluir algunos estilos opcionales para móviles, todo eso ya está incluido en el propio Bootstrap. Por eso nos gusta decir que para Bootstrap 3, los dispositivos móviles son lo más importante.
+
+Para que las páginas se muestren correctamente y el zoom funcione bien en los dispositivos móviles, es importante que añadas la siguiente etiqueta dentro de la cabecera <head> de las páginas:
+
+Si quieres deshabilitar el zoom en tus páginas, añade la propiedad user-scalable=no a la etiqueta anterior:
+
+
+Al añadir la propiedad user-scalable=no, los usuarios ya no podrán hacer zoom en la página y solamente podrán hacer scroll en sus contenidos. El resultado es que el comportamiento de la página se parece más al de una aplicación móvil nativa. En cualquier caso, limitar las libertades de los usuarios puede ser contraproducente y por tanto, no te recomendamos que utilices esta opción en todos tus sitios.
+Añade la clase .col-md-offset-* para desplazar cualquier columna hacia su derecha. Estas clases aumentan el tamaño del margen izquierdo de la columna en una cantidad equivalente a esas * columnas. La clase .col-md-offset-4 por ejemplo desplaza la columna una anchura equivalente a 4 columnas.
+    </p>
+    <div class="row">
+      <div class="col-lg-2 col-lg-offset-1 col-md-4 col-sm-6"><img src="img/ico1-1.png"/></div>
+      <div class="col-lg-2 col-md-4 col-sm-6"><img src="img/ico1-2.png"/></div>
+      <div class="col-lg-2 col-md-4 col-sm-6"><img src="img/ico1-3.png"/></div>
+      <div class="col-lg-2 col-md-4 col-sm-6"><img src="img/ico1-4.png"/></div>
+      <div class="col-lg-2 col-md-4 col-sm-6"><img src="img/ico1-5.png"/></div>
+
+      <div class="col-lg-2 col-lg-offset-1 col-md-4 col-sm-6"><img src="img/ico2-1.png"/></div>
+      <div class="col-lg-2 col-md-4 col-sm-6"><img src="img/ico2-2.jpg"/></div>
+      <div class="col-lg-2 col-md-4 col-sm-6"><img src="img/ico2-3.png"/></div>
+      <div class="col-lg-2 col-md-4 col-sm-6"><img src="img/ico2-4.ico"/></div>
+      <div class="col-lg-2 col-md-4 col-sm-6"><img src="img/ico2-5.png"/></div>
+    </div>
+  </div>
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"
+          integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+          crossorigin="anonymous"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
+          integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+          crossorigin="anonymous">
+  </script>
+</body>
+</html>
