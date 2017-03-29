@@ -1,0 +1,20 @@
+<body id="body">
+  <script>
+  var body=document.getElementById('body');
+  var parra=document.createElement('p');
+  var texto=document.createTextNode('Paragraph with an ');
+  var em=document.createElement('em');
+  var textoem=document.createTextNode('emphasized');
+  parra.appendChild(texto);
+  texto=document.createTextNode('emphasized');
+  em.appendChild(texto);
+  parra.appendChild(em);
+  texto=document.createTextNode(' word and ');
+  parra.appendChild(texto);
+  var strong=document.createElement('strong');
+  texto=document.createTextNode('others more emphasized ');
+  strong.appendChild(texto);
+  parra.appendChild(strong);
+  body.appendChild(parra);
+  </script>
+</body>
